@@ -1,0 +1,68 @@
+/* Estilos padrão para todas as telas */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Estilos específicos para telas pequenas (largura até 600 pixels) */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos específicos para telas médias (largura entre 601 e 900 pixels) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos específicos para telas grandes (largura acima de 900 pixels) */
+  @media only screen and (min-width: 901px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+ul, li{
+    list-style: none;
+  }
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #f0f0f0;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h1 {
+   align-items: center;  
+   color: #f0f0f0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.cabecalho {
+    background-color:darkslategrey;
+    padding: 20px;
+    box-shadow: black;
+}
+
+head {
+    margin: 0;
+}
+
+li:hover {
+    animation-duration: 1s;
+    color: darkturquoise;
+}
+
+img {
+height: 100px;
+width: 130px;
+}
